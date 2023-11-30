@@ -1,0 +1,11 @@
+.container {
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    text-align: center;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    overflow: auto;
+    resize: both;
+}

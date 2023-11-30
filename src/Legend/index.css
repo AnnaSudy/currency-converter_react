@@ -1,0 +1,7 @@
+.form__legend {
+    border: 1px hsl(261, 42%, 28%) 2px solid;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: hsl(261, 42%, 28%);
+    color: aliceblue;
+}

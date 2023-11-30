@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from "./Container";
+import Form from "./Form";
+import Fieldset from "./Fieldset"
+import Legend from "./Legend";
+import PassAmount from "./PassAmount";
+import ChangeCurrency from "./ChangeCurrency";
+import Result from "./Result";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Form>
+        <Fieldset >
+          <Legend title="Przelicznik walut" />
+          <PassAmount title="Podaj kwotę w PLN - zł:" />
+          <ChangeCurrency title="Wybierz walutę:" />
+          <Result title="Wynik: " />
+        </Fieldset>
+      </Form>
+    </Container>
   );
 }
 
